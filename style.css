@@ -7,6 +7,7 @@
 .carousel-container {
   width: 60%;
   margin: auto;
+  border: 2px solid black;
   overflow: hidden;
 }
 
@@ -15,6 +16,6 @@
   width: 100%;
 }
 
-.trainers-image {
+.carousel-slide img {
   width: 100%;
 }
