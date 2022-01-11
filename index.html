@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     ,
     <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e5c8536330.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Image Slider</title>
   </head>
   <body>
     <div class="carousel-container">
+      <i class="fas fa-arrow-left" id="previous-btn"></i>
+      <i class="fas fa-arrow-right" id="next-btn"></i>
       <div class="carousel-slide">
         <img
           src="/Off-White-Nike-Dunk-Low-The-50.jpg"
@@ -40,8 +46,15 @@
       </div>
     </div>
 
-    <button id="previous-btn">previous</button>
-    <button id="next-btn">next</button>
+    <div class="span-container">
+      <div class="dots-container">
+        <span class="dot" data-number="1"></span>
+        <span class="dot" data-number="2"></span>
+        <span class="dot" data-number="3"></span>
+        <span class="dot" data-number="4"></span>
+        <span class="dot" data-number="5"></span>
+      </div>
+    </div>
 
     <script src="/script.js"></script>
   </body>
